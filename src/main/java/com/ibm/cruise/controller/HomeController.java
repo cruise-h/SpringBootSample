@@ -10,7 +10,7 @@ public class HomeController {
 	
 	@RequestMapping("home")
 	public String home() {
-		return "Hello Jenkins World!";
+		return "Hello Jenkins!";
 	}
 	
 }
