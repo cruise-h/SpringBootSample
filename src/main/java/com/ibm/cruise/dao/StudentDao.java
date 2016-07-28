@@ -17,7 +17,7 @@ public class StudentDao {
 	private JdbcTemplate jdbcTemplate;
 
 	public List<Student> getStudentList() throws Exception {
-		String sql = "SELECT ID, NAME, SCORE_SUM, SCORE_AVG, AGE FROM STUDENT";
+		String sql = "SELECT ID, NAME, SCORE_SUM, SCORE_AVG, AGE FROM TP_STUDENT";
 		return jdbcTemplate.query(sql, new RowMapper<Student>() {
 
 			@Override

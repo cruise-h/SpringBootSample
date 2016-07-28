@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "score")
+@Table(name = "TP_SCORE")
 @SuppressWarnings("serial")
 public class Score implements Serializable {
 
